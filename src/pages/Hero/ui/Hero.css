@@ -1,0 +1,9 @@
+.main {
+  background: url("../../../app/styles/image/bg-main.png") center/cover no-repeat;
+  height: 100vh;
+}
+.main__content {
+  margin-top: 2.5rem;
+}
+
+/*# sourceMappingURL=Hero.css.map */

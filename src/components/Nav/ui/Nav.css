@@ -1,0 +1,73 @@
+:root {
+  --fontFamily: Roboto;
+  --fontSize: 1rem;
+  --mainColor: #4B4B4B;
+  --bgColor: #fff;
+  --minWidth: 320;
+  --maxWidth: 1440;
+  --maxWidthContainer: 1020;
+  --containerPadding: 30;
+  --responsiveType: 1;
+  --containerWidth: 1050;
+  --pc: 65.625em;
+  --tablet: 61.99875em;
+  --mobile: 47.99875em;
+  --mobileSmall: 29.99875em;
+}
+
+.nav {
+  margin-bottom: 130px;
+}
+.content__nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFF;
+  padding: 15px 40px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+@media (max-width: 61.99875em) {
+  .content__nav {
+    justify-content: center;
+    row-gap: 20px;
+  }
+}
+.content__nav-body-tabs {
+  display: flex;
+  gap: 37px;
+}
+@media (max-width: 61.99875em) {
+  .content__nav-body-tabs {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.content__nav-body-search {
+  display: flex;
+  gap: 22px;
+}
+
+.tabs__nav {
+  color: #000;
+}
+.tabs__nav__link {
+  font-size: 14px;
+  line-height: 1.57;
+  font-weight: 700;
+  letter-spacing: 0.15px;
+}
+
+.search__nav__lens {
+  cursor: pointer;
+}
+.search__nav__shop {
+  cursor: pointer;
+}
+
+.mobile-btn {
+  display: none;
+}
+
+/*# sourceMappingURL=Nav.css.map */

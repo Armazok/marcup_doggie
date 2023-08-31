@@ -1,0 +1,80 @@
+@use "../../../app/styles/base/common";
+
+.header {
+    // .header__container
+    &__container {
+    }
+
+    // .header__content
+    &__content {
+    }
+}
+
+.content {
+
+    // .content__header
+    &__header {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        margin-bottom: 40px;
+
+        @media (max-width: common.$pc) {
+            justify-content: center;
+        }
+    }
+
+    // .content__header-logo
+    &__header-logo {
+    }
+
+    // .content__header-info
+    &__header-info {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+.info {
+    // .info__header
+    &__header {
+        // .info__header__hourse
+        &__hourse {
+        }
+
+        // .info__header__hourse-body
+        &__hourse-body {
+            color: #FFF;
+            font-size: 12px;
+            line-height: 1.83;
+            letter-spacing: 0.15px;
+            font-weight: 700;
+        }
+
+        // .info__header__hourse-text
+        &__hourse-text {
+            display: flex;
+            column-gap: 10px;
+
+
+        }
+
+        // .info__header__phone
+        &__phone {
+        }
+
+        // .info__header__btn
+        &__btn {
+        }
+    }
+}
+
+._icon-time-16px,
+._icon-phone_16px {
+    color: red;
+    font-size: 24px;
+}
+
+

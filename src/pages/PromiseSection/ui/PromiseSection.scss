@@ -1,0 +1,35 @@
+.section {
+    // .section__promise
+    &__promise {
+    }
+}
+
+
+.promise {
+    // .promise__container
+    &__container {
+    }
+
+    // .promise__content
+    &__content {
+    }
+}
+
+.content {
+    // .content__promise
+    &__promise {
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .content__promise-items
+    &__promise-items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 27px;
+
+        margin-bottom: 120px;
+    }
+}
+
+

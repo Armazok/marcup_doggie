@@ -1,0 +1,33 @@
+.services {
+    // .services__container
+    &__container {
+    }
+
+    // .services__content
+    &__content {
+    }
+}
+
+.content {
+    // .content__services
+    &__services {
+    }
+
+    // .content__services-cards
+    &__services-cards {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 24px;
+
+        margin-bottom: 66px;
+    }
+
+    // .content__services-btn
+    &__services-btn {
+        display: flex;
+        justify-content: center;
+
+        margin-bottom: 122px;
+    }
+}

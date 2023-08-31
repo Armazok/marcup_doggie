@@ -1,0 +1,14 @@
+.content__services-cards {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 66px;
+}
+.content__services-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 122px;
+}
+
+/*# sourceMappingURL=Services.css.map */

@@ -1,0 +1,12 @@
+.content__promise {
+  display: flex;
+  flex-direction: column;
+}
+.content__promise-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+  margin-bottom: 120px;
+}
+
+/*# sourceMappingURL=PromiseSection.css.map */

@@ -1,0 +1,104 @@
+@use "../../../app/styles/base/common";
+
+.nav {
+    margin-bottom: 130px;
+    // .nav__content
+    &__content {
+
+    }
+}
+
+.content {
+    // .content__nav
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFF;
+        padding: 15px 40px;
+        border-radius: 10px;
+        flex-wrap: wrap;
+
+        @media (max-width: common.$tablet) {
+            justify-content: center;
+            row-gap: 20px;
+            //display: none;
+        }
+
+
+    }
+
+    // .content__nav-body-tabs
+    &__nav-body-tabs {
+        display: flex;
+        gap: 37px;
+
+        @media (max-width: common.$tablet) {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    // .content__nav-body-search
+    &__nav-body-search {
+        display: flex;
+        gap: 22px;
+    }
+}
+
+.tabs {
+    // .tabs__nav
+    &__nav {
+        color: #000;
+        // .tabs__nav__link
+        &__link {
+            font-size: 14px;
+            line-height: 1.57;
+            font-weight: 700;
+            letter-spacing: 0.15px;
+        }
+    }
+}
+
+.search {
+    // .search__nav
+    &__nav {
+        // .search__nav__lens
+        &__lens {
+            cursor: pointer;
+
+        }
+
+        // .search__nav__shop
+        &__shop {
+            cursor: pointer;
+
+        }
+    }
+}
+
+.mobile-btn {
+    display: none;
+}
+
+//@media (max-width: common.$mobile) {
+//    .mobile-btn {
+//        display: block;
+//        position: absolute;
+//        right: 35px;
+//        top: 35px;
+//    }
+//    .content__nav {
+//        display: flex;
+//        background: none;
+//    }
+//    .content__nav-body-tabs {
+//        display: block;
+//    }
+//    .content__nav-body-search {
+//        display: block;
+//    }
+//}
+
+

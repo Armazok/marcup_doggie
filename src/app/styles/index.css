@@ -1,0 +1,251 @@
+:root {
+  --fontFamily: Roboto;
+  --fontSize: 1rem;
+  --mainColor: #4B4B4B;
+  --bgColor: #fff;
+  --minWidth: 320;
+  --maxWidth: 1440;
+  --maxWidthContainer: 1020;
+  --containerPadding: 30;
+  --responsiveType: 1;
+  --containerWidth: 1050;
+  --pc: 65.625em;
+  --tablet: 61.99875em;
+  --mobile: 47.99875em;
+  --mobileSmall: 29.99875em;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: var(--minWidth)px;
+}
+
+body {
+  line-height: 1;
+  font-family: var(--fontFamily);
+  font-size: var(--fontSize);
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+button,
+textarea {
+  font-family: var(--fontFamily);
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body {
+  color: var(--mainColor);
+  background-color: var(--bgColor);
+}
+.lock body {
+  overflow: hidden;
+  touch-action: none;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.wrapper > main {
+  flex: 1 1 auto;
+}
+.wrapper > * {
+  min-width: 0;
+}
+
+:root {
+  --fontFamily: Roboto;
+  --fontSize: 1rem;
+  --mainColor: #4B4B4B;
+  --bgColor: #fff;
+  --minWidth: 320;
+  --maxWidth: 1440;
+  --maxWidthContainer: 1020;
+  --containerPadding: 30;
+  --responsiveType: 1;
+  --containerWidth: 1050;
+  --pc: 65.625em;
+  --tablet: 61.99875em;
+  --mobile: 47.99875em;
+  --mobileSmall: 29.99875em;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "icons";
+  font-display: swap;
+  src: url("../fonts/icons.woff2") format("woff2"), url("../fonts/icons.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+[class^=_icon-]:before,
+[class*=" _icon-"]:before {
+  font-family: "icons", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^=_icon-]:before,
+[class*=" _icon-"]:before {
+  display: block;
+}
+
+._icon-email_16px:before {
+  content: "\e900";
+}
+
+._icon-facebook:before {
+  content: "\e901";
+}
+
+._icon-instagram:before {
+  content: "\e902";
+}
+
+._icon-place_16px:before {
+  content: "\e903";
+}
+
+._icon-smartphone_16px:before {
+  content: "\e904";
+}
+
+._icon-timer_16px:before {
+  content: "\e905";
+}
+
+._icon-twitter:before {
+  content: "\e906";
+}
+
+._icon-youtube:before {
+  content: "\e907";
+}
+
+._icon-Logo-Header:before {
+  content: "\e908";
+}
+
+._icon-phone_16px:before {
+  content: "\e909";
+}
+
+._icon-time-16px:before {
+  content: "\e90a";
+}
+
+:root {
+  --fontFamily: Roboto;
+  --fontSize: 1rem;
+  --mainColor: #4B4B4B;
+  --bgColor: #fff;
+  --minWidth: 320;
+  --maxWidth: 1440;
+  --maxWidthContainer: 1020;
+  --containerPadding: 30;
+  --responsiveType: 1;
+  --containerWidth: 1050;
+  --pc: 65.625em;
+  --tablet: 61.99875em;
+  --mobile: 47.99875em;
+  --mobileSmall: 29.99875em;
+}
+
+[class*=__container] {
+  max-width: 63.75rem;
+  box-sizing: content-box;
+  margin: 0 auto;
+  padding: 0 0.9375rem;
+}
+
+/*# sourceMappingURL=index.css.map */

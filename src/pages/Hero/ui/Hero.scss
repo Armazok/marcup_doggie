@@ -1,0 +1,19 @@
+@use "../../../app/styles/base/function";
+
+
+.main {
+    background: url("../../../app/styles/image/bg-main.png") center / cover no-repeat;
+    height: 100vh;
+    // .main__container
+    &__container {
+    }
+
+    // .main__content
+    &__content {
+        margin-top: function.rem(40);
+
+    }
+}
+
+
+

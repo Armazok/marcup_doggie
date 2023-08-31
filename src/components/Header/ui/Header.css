@@ -1,0 +1,52 @@
+:root {
+  --fontFamily: Roboto;
+  --fontSize: 1rem;
+  --mainColor: #4B4B4B;
+  --bgColor: #fff;
+  --minWidth: 320;
+  --maxWidth: 1440;
+  --maxWidthContainer: 1020;
+  --containerPadding: 30;
+  --responsiveType: 1;
+  --containerWidth: 1050;
+  --pc: 65.625em;
+  --tablet: 61.99875em;
+  --mobile: 47.99875em;
+  --mobileSmall: 29.99875em;
+}
+
+.content__header {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+@media (max-width: 65.625em) {
+  .content__header {
+    justify-content: center;
+  }
+}
+.content__header-info {
+  display: flex;
+  gap: 30px;
+}
+
+.info__header__hourse-body {
+  color: #FFF;
+  font-size: 12px;
+  line-height: 1.83;
+  letter-spacing: 0.15px;
+  font-weight: 700;
+}
+.info__header__hourse-text {
+  display: flex;
+  column-gap: 10px;
+}
+._icon-time-16px,
+._icon-phone_16px {
+  color: red;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=Header.css.map */

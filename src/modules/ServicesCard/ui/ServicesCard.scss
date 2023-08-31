@@ -1,0 +1,50 @@
+.content {
+
+    // .content__services-card
+    &__services-card {
+        flex: 1 1 324px;
+        padding: 50px 44px;
+
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.10);
+        transition: 0.7s, box-shadow 0.5s;
+        border-radius: 20px;
+
+        &:hover {
+            transform: scale(1.05);
+            border-radius: 20px;
+
+            box-shadow: rgb(15, 159, 236) 0 54px 55px, rgb(9, 131, 196) 0 -12px 30px, rgb(13, 138, 204) 0 4px 6px, rgb(13, 124, 183) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
+        }
+    }
+}
+
+.card {
+    // .card__services
+    &__services {
+        // .card__services__img
+        &__img {
+            margin-bottom: 33px;
+        }
+
+        // .card__services__title
+        &__title {
+            color: #F2726F;
+
+            font-size: 19px;
+            line-height: 1.36;
+
+            font-weight: 900;
+
+            margin-bottom: 20px;
+        }
+
+        // .card__services__subtitle
+        &__subtitle {
+            color: #4B4B4B;
+
+            line-height: 1.5;
+            font-weight: 400;
+            letter-spacing: 0.15px;
+        }
+    }
+}

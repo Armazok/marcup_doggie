@@ -1,0 +1,26 @@
+.video {
+  background: url("../../../app/styles/image/video/Image.png") center/cover no-repeat;
+  margin-bottom: 100px;
+}
+.content__video {
+  display: flex;
+  align-items: center;
+}
+.blockone__video__img img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.blocktwo__video {
+  max-width: 410px;
+}
+.blocktwo__video__title {
+  color: #FFF;
+  font-size: 36px;
+  line-height: 1.16;
+  font-weight: 900;
+  font-style: normal;
+  margin-bottom: 45px;
+}
+
+/*# sourceMappingURL=VideoSection.css.map */

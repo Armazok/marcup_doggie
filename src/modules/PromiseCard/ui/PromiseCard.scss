@@ -1,0 +1,67 @@
+.item {
+    // .item__promise
+    &__promise {
+        // .item__promise__card
+        &__card {
+        }
+    }
+}
+
+.card {
+    // .card__promise
+    &__promise {
+        display: flex;
+        flex: 1 1 322px;
+        gap: 25px;
+    }
+
+    // .card__promise-bodyImage
+    &__promise-bodyImage {
+        display: flex;
+        align-self: flex-start;
+    }
+
+    // .card__promise-bodyText
+    &__promise-bodyText {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
+
+.bodyImage {
+    // .bodyImage__promise
+    &__promise {
+        // .bodyImage__promise__img
+        &__img {
+        }
+    }
+}
+
+.bodyText {
+    // .bodyText__promise
+    &__promise {
+        // .bodyText__promise__title
+        &__title {
+            color: #F2726F;
+
+            font-size: 19px;
+            line-height: 1.36;
+
+            font-weight: 900;
+        }
+
+        // .bodyText__promise__subtitle
+        &__subtitle {
+            color: #4B4B4B;
+
+            line-height: 1.5;
+
+            font-weight: 400;
+            letter-spacing: 0.15px;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,29 @@
+.card__promise {
+  display: flex;
+  flex: 1 1 322px;
+  gap: 25px;
+}
+.card__promise-bodyImage {
+  display: flex;
+  align-self: flex-start;
+}
+.card__promise-bodyText {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.bodyText__promise__title {
+  color: #F2726F;
+  font-size: 19px;
+  line-height: 1.36;
+  font-weight: 900;
+}
+.bodyText__promise__subtitle {
+  color: #4B4B4B;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+}
+
+/*# sourceMappingURL=PromiseCard.css.map */
