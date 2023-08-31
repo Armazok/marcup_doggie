@@ -5,6 +5,7 @@ import { Video } from 'pages/Video';
 import { Services } from 'pages/Services';
 import { Appointment } from 'pages/Appointment';
 import { Gallery } from 'pages/Gallery';
+import { Customers } from 'pages/Customers';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Services/>
                 <Appointment/>
                 <Gallery/>
+                <Customers/>
                 {/*<Footer/>*/}
             </div>
         </div>
