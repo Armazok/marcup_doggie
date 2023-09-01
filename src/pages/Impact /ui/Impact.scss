@@ -1,0 +1,59 @@
+.impact {
+    background: #29C3BE;
+    min-height: 608px;
+    // .impact__container
+    &__container {
+    }
+
+    // .impact__content
+    &__content {
+    }
+}
+
+.content {
+    // .content__impact
+    &__impact {
+    }
+
+    // .content__impact-header
+    &__impact-header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 85px;
+
+        margin-bottom: 75px;
+    }
+
+    // .content__impact-cards
+    &__impact-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px;
+    }
+}
+
+.header {
+    // .header__impact
+    &__impact {
+        // .header__impact_title
+        &_title {
+            flex: 1 1 411px;
+            align-self: flex-end;
+        }
+
+        // .header__impact__img
+        &__img {
+            margin-top: -70px;
+            flex: 1 1 auto;
+
+            img {
+                width: 100%;
+                border-radius: 40px;
+            }
+        }
+    }
+}
+

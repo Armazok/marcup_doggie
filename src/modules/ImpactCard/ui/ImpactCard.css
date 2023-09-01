@@ -1,0 +1,32 @@
+.cards__impact__items {
+  display: flex;
+  gap: 11px;
+}
+
+.item__impact__img {
+  display: flex;
+  flex-direction: column;
+}
+.item__impact__img img {
+  max-height: 76px;
+  max-width: 76px;
+}
+.item__impact__content {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 237px;
+}
+.item__impact__content__title {
+  color: #FFF;
+  font-size: 36px;
+  line-height: 1.16;
+  font-weight: 900;
+}
+.item__impact__content__subtitle {
+  color: #5D62B5;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=ImpactCard.css.map */

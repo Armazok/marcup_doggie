@@ -1,0 +1,33 @@
+.impact {
+  background: #29C3BE;
+  min-height: 608px;
+}
+.content__impact-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+  margin-bottom: 75px;
+}
+.content__impact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.header__impact_title {
+  flex: 1 1 411px;
+  align-self: flex-end;
+}
+.header__impact__img {
+  margin-top: -70px;
+  flex: 1 1 auto;
+}
+.header__impact__img img {
+  width: 100%;
+  border-radius: 40px;
+}
+
+/*# sourceMappingURL=Impact.css.map */
