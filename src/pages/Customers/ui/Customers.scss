@@ -64,33 +64,4 @@
     }
 }
 
-.card {
-    // .card__customers
-    &__customers {
-        // .card__customers__item
-        &__item {
-        }
 
-        // .card__customers__text
-        &__text {
-            color: #4B4B4B;
-
-            line-height: 1.5;
-
-            font-weight: 400;
-            letter-spacing: 0.15px;
-
-            margin-bottom: 30px;
-        }
-
-        // .card__customers__person
-        &__person {
-            color: #F2726F;
-
-            line-height: 1.5;
-
-            font-weight: 700;
-            letter-spacing: 0.15px;
-        }
-    }
-}

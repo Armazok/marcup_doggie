@@ -36,18 +36,4 @@
   box-shadow: rgb(15, 159, 236) 0 54px 55px, rgb(9, 131, 196) 0 -12px 30px, rgb(13, 138, 204) 0 4px 6px, rgb(13, 124, 183) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
 }
 
-.card__customers__text {
-  color: #4B4B4B;
-  line-height: 1.5;
-  font-weight: 400;
-  letter-spacing: 0.15px;
-  margin-bottom: 30px;
-}
-.card__customers__person {
-  color: #F2726F;
-  line-height: 1.5;
-  font-weight: 700;
-  letter-spacing: 0.15px;
-}
-
 /*# sourceMappingURL=Customers.css.map */

@@ -2,6 +2,9 @@ import { FC, memo } from 'react';
 import './Customers.scss';
 import { TitleSection } from 'components/TitleSection';
 import Blob from '../../../app/styles/image/customers/Blob 2.png';
+import Person_1 from '../../../app/styles/image/customers/person_1.svg';
+import Person_2 from '../../../app/styles/image/customers/person_2.svg';
+import { CustomersCard } from 'modules/CustomersCard';
 
 interface ICustomers {
 
@@ -27,39 +30,19 @@ export const Customers: FC<ICustomers> = memo(({}) => {
 
 
                     <div className="content__customers-card card__customers">
-
-                        <div className="card__customers__item">
-                            <div className="card__customers__text">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore ex magna aliqua. Ut enim illum ad minim veniam,
-                                    quis
-                                    ea exercitation ullamco cillum ut enim dolore.”
-                                </p>
-                            </div>
-
-                            <div className="card__customers__person">
-                                <span>Cullen Bohannon</span>
-                            </div>
-                        </div>
-
+                        <CustomersCard
+                            cardText={'“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ex magna aliqua. Ut enim illum ad minim veniam, quis ea exercitation ullamco cillum ut enim dolore.”'}
+                            src={Person_1}
+                            namePerson={'Cullen Bohannon'}
+                        />
                     </div>
 
                     <div className="content__customers-card card__customers">
-
-                        <div className="card__customers__item">
-                            <div className="card__customers__text">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore ex magna aliqua. Ut enim illum ad minim veniam,
-                                    quis
-                                    ea exercitation ullamco cillum ut enim dolore.”
-                                </p>
-                            </div>
-
-                            <div className="card__customers__person">
-                                <span>Cullen Bohannon</span>
-                            </div>
-                        </div>
-
+                        <CustomersCard
+                            cardText={'“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi ipsam voluptatem aspernatur.”'}
+                            src={Person_2}
+                            namePerson={'Jennifer Thomas'}
+                        />
                     </div>
 
 
