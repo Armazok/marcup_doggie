@@ -1,0 +1,231 @@
+.content__footer {
+  display: flex;
+  flex-direction: column;
+}
+.content__footer-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background: #5D62B5;
+  margin-top: -75px;
+  margin-bottom: 80px;
+  padding: 43px 70px;
+}
+.content__footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 156px;
+  row-gap: 30px;
+  margin-bottom: 100px;
+}
+.content__footer-logo {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 236px;
+}
+.content__footer-links {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 236px;
+}
+.content__footer-contact {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 236px;
+}
+
+.head__footer__title {
+  flex: 0 1 562px;
+  color: #FFF;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 900;
+}
+.logo__footer__img {
+  margin-bottom: 23px;
+}
+.logo__footer__text {
+  max-width: 235px;
+  color: #4B4B4B;
+  font-size: 14px;
+  line-height: 1.57;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  margin-bottom: 33px;
+}
+.logo__footer__social {
+  display: flex;
+  column-gap: 18px;
+}
+
+._icon-facebook {
+  color: #F2726F;
+  font-size: 24px;
+}
+
+._icon-twitter {
+  color: #F2726F;
+  font-size: 24px;
+}
+
+._icon-instagram {
+  color: #F2726F;
+  font-size: 24px;
+}
+
+._icon-youtube {
+  color: #F2726F;
+  font-size: 24px;
+}
+
+.links__footer__title {
+  color: #4B4B4B;
+  font-size: 14px;
+  line-height: 1.57;
+  font-weight: 700;
+  letter-spacing: 0.15px;
+  margin-bottom: 28px;
+}
+.links__footer-wrapper {
+  display: flex;
+  gap: 55px;
+}
+
+.wrapper__links__blockOne {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.wrapper__links__blockOne a {
+  color: #4B4B4B;
+  font-size: 14px;
+  line-height: 1.57;
+  font-weight: 700;
+  letter-spacing: 0.15px;
+}
+.wrapper__links__blockTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.wrapper__links__blockTwo a {
+  color: #4B4B4B;
+  font-size: 14px;
+  line-height: 1.57;
+  font-weight: 700;
+  letter-spacing: 0.15px;
+}
+
+.contact__footer__title {
+  color: #4B4B4B;
+  font-size: 14px;
+  line-height: 1.57;
+  font-weight: 700;
+  letter-spacing: 0.15px;
+  margin-bottom: 29px;
+}
+.contact__footer__info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #4B4B4B;
+  font-size: 14px;
+  line-height: 1.42;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+}
+.contact__footer__info__place {
+  display: flex;
+  gap: 16px;
+  color: #4B4B4B;
+  font-size: 14px;
+  line-height: 1.42;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+}
+.contact__footer__info__phone {
+  display: flex;
+  gap: 16px;
+  color: #4B4B4B;
+  font-size: 14px;
+  line-height: 1.42;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+}
+.contact__footer__info__email {
+  display: flex;
+  gap: 16px;
+  color: #4B4B4B;
+  font-size: 14px;
+  line-height: 1.42;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+}
+.contact__footer__info__time {
+  display: flex;
+  gap: 16px;
+  color: #4B4B4B;
+  font-size: 14px;
+  line-height: 1.42;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+}
+
+._icon-place_16px {
+  color: #F2726F;
+  font-size: 16px;
+}
+
+._icon-smartphone_16px {
+  color: #F2726F;
+  font-size: 16px;
+}
+
+._icon-email_16px {
+  color: #F2726F;
+  font-size: 16px;
+}
+
+._icon-timer_16px {
+  color: #F2726F;
+  font-size: 16px;
+}
+
+.linear {
+  padding: 23px 0;
+  background-color: #5D62B5;
+}
+.linear__container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+.linear__text {
+  color: #FFF;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+}
+.linear__copyright p {
+  color: #FFF;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+}
+.linear__copyright p span {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+}
+
+/*# sourceMappingURL=Footer.css.map */

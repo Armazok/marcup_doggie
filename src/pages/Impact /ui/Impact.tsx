@@ -3,8 +3,8 @@ import { TitleSection } from 'components/TitleSection';
 import Bg_Dog from 'app/styles/image/impact/bg__impact.png';
 import Item_1 from 'app/styles/image/impact/dog_duckling_76px.svg';
 import Item_3 from 'app/styles/image/impact/dog_duckling_76px.svg';
-import Item_4 from 'app/styles/image/impact/dog_leash_76x.svg';
 import Item_2 from 'app/styles/image/impact/dog_food_bowl_76x.svg';
+import Item_4 from 'app/styles/image/impact/dog_leash_76x.svg';
 import './Impact.scss';
 import { ImpactCard } from 'modules/ImpactCard';
 

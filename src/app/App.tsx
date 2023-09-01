@@ -7,6 +7,7 @@ import { Appointment } from 'pages/Appointment';
 import { Gallery } from 'pages/Gallery';
 import { Customers } from 'pages/Customers';
 import { Impact } from 'pages/Impact ';
+import { Footer } from 'components/Footer';
 
 function App() {
     return (
@@ -21,7 +22,7 @@ function App() {
                 <Gallery/>
                 <Customers/>
                 <Impact/>
-                {/*<Footer/>*/}
+                <Footer/>
             </div>
         </div>
     );
